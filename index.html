@@ -4,11 +4,134 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- custom CSS  -->
     <link rel="stylesheet" href="style.css" />
+
     <title>Honda Bazar.</title>
   </head>
   <body>
-    <h1>Connecting to privte repo</h1>
-    <h1>Connecting to privte repo</h1>
+    <header class="my-header-bg mb-5">
+      <!-- top banner  -->
+      <section class="container py-5">
+        <div class="row g-5">
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <div class="text-white">
+              <p class="fw-light mb-0">
+                Computer-controlled digital transistorized with electronic
+                advance
+              </p>
+              <h1 class="">Honda CBR 300R</h1>
+              <p class="fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam necessitatibus, adipisci nemo laborum voluptate quas
+                aspernatur earum nesciunt praesentium molestiae.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Purchase
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5
+                        class="modal-title text-dark"
+                        id="staticBackdropLabel"
+                      >
+                        Buy Now
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                      Buy this Honda right now.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 d-flex align-items-center justify-content-center"
+          >
+            <img class="img-fluid" src="./images/header-bike.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="container">
+      <!-- Featured bike  -->
+      <section class="my-5">
+        <h1 class="text-center">Featured Bikes 2021</h1>
+        <p class="text-center">Best bike collection</p>
+        <div class="row">
+          <div class="col-md-4 p-5">
+            <img
+              class="img-fluid gray-scale-img"
+              src="./images/feature-bike.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 p-5">
+            <img class="img-fluid" src="./images/feature-bike.jpg" alt="" />
+          </div>
+          <div class="col-md-4 p-5">
+            <img
+              class="img-fluid gray-scale-img"
+              src="./images/feature-bike.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <!-- bootstrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
