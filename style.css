@@ -36,3 +36,11 @@ body {
 .accordion-width {
   width: 100%;
 }
+
+.card {
+  border-radius: 15px;
+}
+
+img {
+  max-width: 100%;
+}
