@@ -1,17 +1,38 @@
+/* body font  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 body {
   font-family: "Poppins", sans-serif;
+}
+/* Model font  */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.font-lobster {
+  font-family: "Lobster", cursive;
 }
 
 .my-header-bg {
   background-color: #264653;
 }
 
+.my-contact-bg {
+  background-color: rgb(224, 224, 224);
+}
+
 .my-font-color {
   color: #e76f51;
+}
+.my-font-color-2 {
+  color: #23a6f0;
+}
+.my-btn-color {
+  background-color: #e76f51;
 }
 
 .gray-scale-img {
   filter: grayscale(100%);
+}
+
+.accordion-width {
+  width: 100%;
 }
